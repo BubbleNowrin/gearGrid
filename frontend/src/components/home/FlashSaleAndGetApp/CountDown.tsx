@@ -30,22 +30,22 @@ const CountDown = () => {
 
   return (
     <div className="mb-6">
-      <div className="text-lg md:text-3xl grid grid-cols-4 gap-4 font-semibold">
-        <div className="flex flex-col items-center mr-6">
-          <span className="text-red mr-2 mb-3">{days}</span>
-          <span className="text-base xl:text-3xl text-black">days</span>
+      <div className="grid grid-cols-4 gap-3 font-bold">
+        <div className="flex flex-col items-center bg-white/15 backdrop-blur-md rounded-xl border border-white/20 shadow-lg p-3 hover:bg-white/20 transition-all duration-300">
+          <span className="text-xl md:text-3xl text-red mb-2 drop-shadow-lg">{days}</span>
+          <span className="text-xs xl:text-sm text-white/90 uppercase tracking-wide">days</span>
         </div>
-        <div className="flex flex-col items-center mr-6">
-          <span className="text-blue mr-2 mb-3">{hours}</span>
-          <span className="text-base xl:text-3xl text-black">hours</span>
+        <div className="flex flex-col items-center bg-white/15 backdrop-blur-md rounded-xl border border-white/20 shadow-lg p-3 hover:bg-white/20 transition-all duration-300">
+          <span className="text-xl md:text-3xl text-blue mb-2 drop-shadow-lg">{hours}</span>
+          <span className="text-xs xl:text-sm text-white/90 uppercase tracking-wide">hours</span>
         </div>
-        <div className="flex flex-col items-center mr-6">
-          <span className="text-green mr-2 mb-3">{minutes}</span>
-          <span className="text-base xl:text-3xl text-black">minutes</span>
+        <div className="flex flex-col items-center bg-white/15 backdrop-blur-md rounded-xl border border-white/20 shadow-lg p-3 hover:bg-white/20 transition-all duration-300">
+          <span className="text-xl md:text-3xl text-green mb-2 drop-shadow-lg">{minutes}</span>
+          <span className="text-xs xl:text-sm text-white/90 uppercase tracking-wide">mins</span>
         </div>
-        <div className="flex flex-col items-center">
-          <span className="text-pink mr-2 mb-3">{seconds}</span>
-          <span className="text-base xl:text-3xl text-black">seconds</span>
+        <div className="flex flex-col items-center bg-white/15 backdrop-blur-md rounded-xl border border-white/20 shadow-lg p-3 hover:bg-white/20 transition-all duration-300">
+          <span className="text-xl md:text-3xl text-pink mb-2 drop-shadow-lg">{seconds}</span>
+          <span className="text-xs xl:text-sm text-white/90 uppercase tracking-wide">secs</span>
         </div>
       </div>
     </div>

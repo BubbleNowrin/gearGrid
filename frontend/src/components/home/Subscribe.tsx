@@ -3,17 +3,26 @@ import React from "react";
 const Subscribe = () => {
   return (
     <div className="bg-input">
-      <div className="mb-16 w-full flex flex-col md:flex-row items-center justify-center md:justify-between md:px-10 h-36 container px-4">
-        <h4 className="text-black text-sm md:text-lg lg:text-2xl mb-4 md:mb-0 font-medium">
-          <span className="mr-1 md:mr-2">Subscribe Now Get</span> |{" "}
-          <span className="mr-1 md:ml-2">25% Off first purchase!</span>
-        </h4>
-        <div className="focus:outline-none w-full md:w-[40%] mb-2 md:mb-0">
+      <div className="mb-16 w-full flex flex-col md:flex-row items-center justify-center md:justify-between gap-4 md:gap-8 py-8 md:py-12 container px-4">
+        
+        <div className="text-center md:text-left">
+          <h4 className="text-black text-lg md:text-xl lg:text-2xl font-semibold mb-2">
+            Subscribe Now & Get{" "}
+            <span className="text-primary font-bold">25% Off</span>{" "}
+            your first purchase!
+          </h4>
+          <p className="text-gray text-sm md:text-base">
+            Join our newsletter for exclusive deals and updates
+          </p>
+        </div>
+
+        <div className="w-full md:w-auto flex gap-2">
           <input
-            placeholder="Subscribe Now!"
-            className="w-[70%] md:w-[65%] lg:w-3/4 xl:w-4/5 p-3 rounded-s-lg"
+            type="email"
+            placeholder="Enter your email"
+            className="flex-1 md:w-80 p-3 rounded-lg border border-gray/30 focus:outline-none focus:border-primary transition-colors duration-200"
           />
-          <button className="bg-gradient-to-tr from-secondary to-primary rounded-e-lg p-3 text-white w-[30%] md:w-[35%] lg:w-1/4 xl:w-1/5">
+          <button className="bg-gradient-to-r from-secondary to-primary hover:from-primary hover:to-secondary text-white font-medium px-6 py-3 rounded-lg transition-all duration-200 whitespace-nowrap">
             Subscribe
           </button>
         </div>

@@ -11,23 +11,37 @@ const FlashSale = () => {
         height: "100%",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        transform: "rotate(180deg)",
+        backgroundPosition: "center",
       }}
-      className="flex items-center justify-center text-black py-12 md:py-16 lg:py-0"
+      className="relative flex items-center justify-center text-white py-12 md:py-16 lg:py-0 overflow-hidden"
     >
-      <div className="rotate-180 w-[94%] md:w-4/5">
-        <p className="uppercase mb-4 font-semibold bg-input text-sm rounded-full p-1 w-2/5 md:w-1/4 lg:w-[34%] text-center">
-          Flash Sale
-        </p>
-        <CountDown />
-        <h2 className="text-2xl xl:text-4xl mb-5 pt-3">
+      {/* Glassmorphism overlay */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue/20 via-primary/10 to-secondary/20 backdrop-blur-sm"></div>
+      
+      {/* Content container with glassmorphism effect */}
+      <div className="relative z-10 w-[94%] md:w-4/5 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-2xl p-6 md:p-8">
+        <div className="bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-sm rounded-full border border-white/30 shadow-lg inline-block">
+          <p className="uppercase font-bold text-white text-sm px-4 py-2">
+            ⚡ Flash Sale
+          </p>
+        </div>
+        
+        <div className="mt-6">
+          <CountDown />
+        </div>
+        
+        <h2 className="text-2xl xl:text-4xl mb-5 font-bold text-white drop-shadow-lg">
           Quick-Fire Flash Sale
         </h2>
-        <p className="mb-5 font-medium text-sm xl:text-base">
+        
+        <p className="mb-6 font-medium text-sm xl:text-base text-white/90 leading-relaxed">
           Get ready for lightning-fast savings! Our Quick-Fire Flash Sale is
-          here for a limited time. Don”t miss out on incredible deals.
+          here for a limited time. Don&apos;t miss out on incredible deals.
         </p>
-        <BuyNowBtn title="Shop Now!" background="#3B82F6" color="#ffffff" />
+        
+        <div className="bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary transition-all duration-300 rounded-xl border border-white/20 shadow-lg hover:shadow-xl transform hover:scale-105">
+          <BuyNowBtn title="Shop Now!" background="transparent" color="#ffffff" />
+        </div>
       </div>
     </div>
   );
