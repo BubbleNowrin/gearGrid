@@ -16,7 +16,7 @@ const SmallInfo = () => {
       info: "7 Days Money Return",
     },
     {
-      icon: <SupportAgentIcon sx={{ fontSize: "48px", color: "#f15700" }} />,
+      icon: <SupportAgentIcon sx={{ fontSize: "48px", color: "#2563EB" }} />,
       title: "Support 24/7",
       info: (
         <span>
@@ -29,7 +29,7 @@ const SmallInfo = () => {
       ),
     },
     {
-      icon: <PaymentIcon sx={{ fontSize: "48px", color: "#f15700" }} />,
+      icon: <PaymentIcon sx={{ fontSize: "48px", color: "#2563EB" }} />,
       title: "Safe Payment",
       info: "Protect Online Payment",
     },

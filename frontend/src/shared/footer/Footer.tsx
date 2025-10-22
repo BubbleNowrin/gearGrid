@@ -103,7 +103,7 @@ const Footer = () => {
                       borderRadius: "4px",
                       fontWeight: 500,
                       background:
-                        "linear-gradient(to bottom left, #f15700, #ff7a1a) !important",
+                        "linear-gradient(to bottom left, #2563EB, #3B82F6) !important",
                       color: "white",
                     }}
                   >

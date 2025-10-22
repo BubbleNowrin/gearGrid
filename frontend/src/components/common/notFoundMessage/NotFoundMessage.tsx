@@ -16,8 +16,8 @@ const NotFoundMessage = ({
     <div className={`flex items-center justify-center flex-col ${heightStyle}`}>
       <ListIcon
         sx={{
-          color: "#ff7a1a",
-          background: "#ffa50054 !important",
+          color: "#3B82F6",
+          background: "#3B82F654 !important",
           borderRadius: "100%",
           width: "50px",
           height: "50px",

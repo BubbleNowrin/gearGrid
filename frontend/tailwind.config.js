@@ -6,8 +6,8 @@ module.exports = {
     extend: {},
     // our colors theme
     colors: {
-      primary: "#ff7a1a",
-      secondary: "#f15700",
+      primary: "#3B82F6", // Modern blue
+      secondary: "#2563EB", // Lighter, more vibrant blue
       white: "#ffffff",
       black: "#1c1c1c",
       gray: "#686464",
@@ -19,6 +19,8 @@ module.exports = {
       yellow: "#F4B618",
       green: "#219653",
       pink: "#EF5DA8",
+      accent: "#06B6D4", // Cyan accent
+      "accent-dark": "#0891B2", // Darker cyan
     },
 
     container: {

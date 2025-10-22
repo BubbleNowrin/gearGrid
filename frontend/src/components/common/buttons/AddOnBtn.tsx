@@ -8,7 +8,7 @@ const AddOnBtn = ({ title, loading }: { title: string; loading: boolean }) => {
       type="submit"
       sx={{
         // background: "#2f4eb4 !important",
-        background: "linear-gradient(#f15700, #ff7a1a) !important",
+        background: "linear-gradient(#2563EB, #3B82F6) !important",
         width: "100%",
         color: "#ffffff",
         paddingY: "10px",

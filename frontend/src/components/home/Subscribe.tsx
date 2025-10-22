@@ -13,7 +13,7 @@ const Subscribe = () => {
             placeholder="Subscribe Now!"
             className="w-[70%] md:w-[65%] lg:w-3/4 xl:w-4/5 p-3 rounded-s-lg"
           />
-          <button className="bg-gradient-to-tr from-secondary to-secondary rounded-e-lg p-3 text-white w-[30%] md:w-[35%] lg:w-1/4 xl:w-1/5">
+          <button className="bg-gradient-to-tr from-secondary to-primary rounded-e-lg p-3 text-white w-[30%] md:w-[35%] lg:w-1/4 xl:w-1/5">
             Subscribe
           </button>
         </div>

@@ -6,13 +6,13 @@ const UpdateUserInfoBtn = ({ isLoading }: { isLoading: boolean }) => {
   return (
     <Button
       sx={{
-        background: "#ff7a1a !important",
+        background: "#3B82F6 !important",
         color: "#ffffff",
         fontSize: "12px",
         paddingY: "8px",
         "&:hover": {
           background: "#e2e2e2 !important",
-          color: "#ff7a1a",
+          color: "#3B82F6",
         },
       }}
       type="submit"

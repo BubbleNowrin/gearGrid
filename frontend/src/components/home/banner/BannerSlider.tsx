@@ -95,7 +95,7 @@ const Slider = () => {
                 <BuyNowBtn
                   title="Buy Now"
                   background="#ffffff"
-                  color="#ff7a1a"
+                  color="#3B82F6"
                   hover="#e2e2e2"
                 />
               </Link>
@@ -125,7 +125,7 @@ const Slider = () => {
       <div className="absolute bottom-5 right-3 flex gap-2">
         <IconButton
           onClick={backward}
-          sx={{ background: `#f15700 !important` }}
+          sx={{ background: `#2563EB !important` }}
         >
           <BackwardIcon
             sx={{
@@ -140,7 +140,7 @@ const Slider = () => {
         <IconButton onClick={forward} sx={{ background: `#ffffff !important` }}>
           <ForwardIcon
             sx={{
-              color: "#f15700",
+              color: "#2563EB",
               fontSize: {
                 xs: 14,
                 sm: 16,

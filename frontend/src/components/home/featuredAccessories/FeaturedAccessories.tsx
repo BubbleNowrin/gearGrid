@@ -33,7 +33,7 @@ const FeaturedAccessories = () => {
     "&.Mui-selected": {
       color: "#ffffff",
       background:
-        "linear-gradient(to bottom left, #f15700, #ff7a1a) !important",
+        "linear-gradient(to bottom left, #2563EB, #3B82F6) !important",
       transitionDuration: "0.4s",
     },
   };

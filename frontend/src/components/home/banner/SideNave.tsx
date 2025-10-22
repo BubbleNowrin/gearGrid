@@ -44,7 +44,7 @@ const SideNav = () => {
       <Button
         sx={{
           width: "100%",
-          background: "linear-gradient(to bottom, #f15700, #ff7a1a) !important",
+          background: "linear-gradient(to bottom, #2563EB, #3B82F6) !important",
           borderRadius: 0,
           py: {
             sx: "8px",
