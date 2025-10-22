@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className="mt-3">
                   <div className="flex items-center mb-2">
                     <BsTelephone className="text-primary mr-2 text-sm" />
-                    <span className="text-sm">+880-163-297-0990</span>
+                    <span className="text-sm">+1 234-567-8901</span>
                   </div>
                   <div className="flex items-center mb-2">
                     <IoLocationOutline className="text-primary mr-2 text-sm" />

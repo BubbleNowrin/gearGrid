@@ -5,6 +5,7 @@ import GamingZone from "./gamingZone/GamingZone";
 import SmallInfo from "./SmallInfo";
 import Subscribe from "./Subscribe";
 import TopSellingProducts from "./topSellingProducts/TopSellingProducts";
+import CustomerReviews from "./customerReviews/CustomerReviews";
 
 const HomeMain = () => {
   return (
@@ -15,6 +16,7 @@ const HomeMain = () => {
       <TopSellingProducts />
       <FlashSaleAndGetApp />
       <FeaturedAccessories />
+      <CustomerReviews />
       <Subscribe />
     </div>
   );
