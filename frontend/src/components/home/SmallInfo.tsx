@@ -25,8 +25,8 @@ const SmallInfo = () => {
       info: (
         <span>
           Hotline (
-          <a href="tel:+8801632970990" className="hover:text-accent font-medium">
-            +8801632970990
+          <a href="tel:+1234567890" className="hover:text-accent font-medium">
+            +1234 567 890
           </a>
           )
         </span>

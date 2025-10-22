@@ -125,8 +125,25 @@ const CustomerReviews = () => {
   };
 
   return (
-    <div className="w-full mb-16 bg-gradient-to-br from-input to-white py-16">
-      <div className="container px-4">
+    <div className="w-full mb-16 bg-gradient-to-br from-input to-white py-16 relative overflow-hidden">
+      {/* Background Shapes */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* Gray circles only */}
+        <div className="absolute top-10 -left-20 w-40 h-40 bg-gray/5 rounded-full"></div>
+        <div className="absolute top-32 right-10 w-32 h-32 bg-gray/8 rounded-full"></div>
+        <div className="absolute bottom-20 -right-16 w-48 h-48 bg-gray/6 rounded-full"></div>
+        <div className="absolute bottom-10 left-20 w-24 h-24 bg-gray/10 rounded-full"></div>
+        <div className="absolute top-1/2 -left-10 w-36 h-36 bg-gray/4 rounded-full"></div>
+        <div className="absolute top-5 right-1/2 w-28 h-28 bg-gray/7 rounded-full"></div>
+        <div className="absolute top-1/4 right-1/4 w-16 h-16 bg-gray/9 rounded-full"></div>
+        <div className="absolute top-3/4 left-1/4 w-20 h-20 bg-gray/6 rounded-full"></div>
+        <div className="absolute bottom-1/3 right-1/3 w-18 h-18 bg-gray/8 rounded-full"></div>
+        <div className="absolute top-1/3 left-1/2 w-14 h-14 bg-gray/5 rounded-full"></div>
+        <div className="absolute bottom-1/4 left-1/3 w-12 h-12 bg-gray/7 rounded-full"></div>
+        <div className="absolute top-2/3 right-1/4 w-10 h-10 bg-gray/9 rounded-full"></div>
+      </div>
+      
+      <div className="container px-4 relative z-10">
         <Title
           title="Customer Reviews"
           subTitle="What Our Satisfied Customers Say About Us"

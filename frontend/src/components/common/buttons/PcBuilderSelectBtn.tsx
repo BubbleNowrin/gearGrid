@@ -13,11 +13,15 @@ const PcBuilderSelectBtn = ({ path }: IBtn) => {
         size="large"
         sx={{
           background:
-            "linear-gradient(to bottom left, #f15700, #ff7a1a) !important",
+            "linear-gradient(to bottom left, #2563EB, #3B82F6) !important",
           color: "#ffffff",
           "&:disabled": {
             color: "#686464",
             background: "#e2e2e2 !important",
+          },
+          "&:hover": {
+            background:
+              "linear-gradient(to bottom left, #3B82F6, #2563EB) !important",
           },
           borderRadius: "4px",
         }}
