@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Intel 13th Gen Core i9 13900K Raptor Lake Processor",
+    "images": {
+      "i1": "https://i.ibb.co/7WZSvnt/cpu1.webp",
+      "i2": "https://i.ibb.co/7WZSvnt/cpu1.webp",
+      "i3": "https://i.ibb.co/7WZSvnt/cpu1.webp",
+      "i4": "https://i.ibb.co/7WZSvnt/cpu1.webp"
+    },
+    "features": {
+      "f1": "8 cores",
+      "f2": "16 threads", 
+      "f3": "3.5 GHz base clock",
+      "f4": "5.7 GHz boost clock",
+      "f5": "32MB L3 cache"
+    },
+    "category": "CPU",
+    "price": "599.99",
+    "discount": 15,
+    "discountedPrice": 509.99,
+    "quantity": 50,
+    "totalSale": 0,
+    "status": true,
+    "description": "The Intel Core i9-13900K 3 GHz 24-Core LGA 1700 Processor will boost your productivity, gaming, and content production. This 13th-generation desktop CPU expands on the Hybrid Core design and Intel 7 process by packing 24 cores onto a single chip, eight more than the previous generation, while still fitting the LGA 1700 socket. Available at GearGrid USA with fast shipping from Birmingham, Alabama.",
+    "allRating": [0],
+    "rating": 0,
+    "brand": "intel",
+    "code": "CPU-I913900K-001",
+    "sellerID": "geargrid-usa"
+  },
+  {
+    "name": "AMD Ryzen 9 7950X Processor",
+    "images": {
+      "i1": "https://i.ibb.co/GnZvWC7/cpu2.webp",
+      "i2": "https://i.ibb.co/GnZvWC7/cpu2.webp",
+      "i3": "https://i.ibb.co/GnZvWC7/cpu2.webp",
+      "i4": "https://i.ibb.co/GnZvWC7/cpu2.webp"
+    },
+    "features": {
+      "f1": "16 cores",
+      "f2": "32 threads",
+      "f3": "4.5 GHz base clock",
+      "f4": "5.7 GHz boost clock", 
+      "f5": "64MB L3 cache"
+    },
+    "category": "CPU",
+    "price": "699.99",
+    "discount": 10,
+    "discountedPrice": 629.99,
+    "quantity": 30,
+    "totalSale": 0,
+    "status": true,
+    "description": "The AMD Ryzen 9 7950X is a 16-core CPU featuring Zen4 microarchitecture. Experience up to 5.7 GHz boost speeds and incredible multi-threaded performance. Perfect for content creation and gaming. Available at GearGrid USA.",
+    "allRating": [0],
+    "rating": 0,
+    "brand": "amd",
+    "code": "CPU-R97950X-002",
+    "sellerID": "geargrid-usa"
+  },
+  {
+    "name": "Intel 13th Gen Core i7 13700K Raptor Lake Processor",
+    "images": {
+      "i1": "https://i.ibb.co/vCFfgTS/cpu3.webp",
+      "i2": "https://i.ibb.co/vCFfgTS/cpu3.webp",
+      "i3": "https://i.ibb.co/vCFfgTS/cpu3.webp",
+      "i4": "https://i.ibb.co/vCFfgTS/cpu3.webp"
+    },
+    "features": {
+      "f1": "16 cores",
+      "f2": "24 threads",
+      "f3": "3.4 GHz base clock",
+      "f4": "5.4 GHz boost clock",
+      "f5": "30MB L3 cache"
+    },
+    "category": "CPU",
+    "price": "419.99",
+    "discount": 12,
+    "discountedPrice": 369.59,
+    "quantity": 75,
+    "totalSale": 0,
+    "status": true,
+    "description": "The Intel Core i7-13700K delivers exceptional performance for gaming and productivity. With 16 cores and Intel's latest architecture, it's perfect for enthusiasts. Fast shipping from our Birmingham, Alabama warehouse.",
+    "allRating": [0],
+    "rating": 0,
+    "brand": "intel",
+    "code": "CPU-I713700K-003",
+    "sellerID": "geargrid-usa"
+  },
+  {
+    "name": "ASUS TUF GAMING Z790-PLUS WIFI D4 13th Gen & 12th Gen ATX Motherboard",
+    "images": {
+      "i1": "https://i.ibb.co/XpvBgth/motherboard1.webp",
+      "i2": "https://i.ibb.co/XpvBgth/motherboard1.webp",
+      "i3": "https://i.ibb.co/XpvBgth/motherboard1.webp",
+      "i4": "https://i.ibb.co/XpvBgth/motherboard1.webp"
+    },
+    "features": {
+      "f1": "LGA 1700 socket",
+      "f2": "ATX form factor",
+      "f3": "DDR4 support",
+      "f4": "WiFi 6 built-in",
+      "f5": "PCIe 5.0 ready"
+    },
+    "category": "Motherboard",
+    "price": "259.99",
+    "discount": 8,
+    "discountedPrice": 239.19,
+    "quantity": 40,
+    "totalSale": 0,
+    "status": true,
+    "description": "ASUS TUF GAMING Z790-PLUS WIFI D4 Motherboard with LGA 1700 socket and Z790 chipset. Supports 13th Gen Intel Core Processors with robust power delivery and premium connectivity. Available at GearGrid USA.",
+    "allRating": [0],
+    "rating": 0,
+    "brand": "asus",
+    "code": "MB-Z790PLUS-004",
+    "sellerID": "geargrid-usa"
+  },
+  {
+    "name": "Corsair DOMINATOR PLATINUM RGB 32GB DDR5 6000MHz RAM Kit",
+    "images": {
+      "i1": "https://i.ibb.co/PmwbSbJ/ram1.webp",
+      "i2": "https://i.ibb.co/PmwbSbJ/ram1.webp",
+      "i3": "https://i.ibb.co/PmwbSbJ/ram1.webp",
+      "i4": "https://i.ibb.co/PmwbSbJ/ram1.webp"
+    },
+    "features": {
+      "f1": "32GB capacity",
+      "f2": "DDR5-6000 speed",
+      "f3": "C36 latency",
+      "f4": "RGB lighting",
+      "f5": "AMD EXPO ready"
+    },
+    "category": "RAM",
+    "price": "349.99",
+    "discount": 15,
+    "discountedPrice": 297.49,
+    "quantity": 60,
+    "totalSale": 0,
+    "status": true,
+    "description": "Corsair DOMINATOR PLATINUM RGB 32GB DDR5 memory kit delivers exceptional performance and stunning RGB lighting. Perfect for high-end gaming builds. Ships fast from GearGrid USA in Birmingham, Alabama.",
+    "allRating": [0],
+    "rating": 0,
+    "brand": "corsair",
+    "code": "RAM-DOMRGB32-005",
+    "sellerID": "geargrid-usa"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 4080 SUPER Graphics Card",
+    "images": {
+      "i1": "https://i.ibb.co/gpu1.webp",
+      "i2": "https://i.ibb.co/gpu1.webp", 
+      "i3": "https://i.ibb.co/gpu1.webp",
+      "i4": "https://i.ibb.co/gpu1.webp"
+    },
+    "features": {
+      "f1": "16GB GDDR6X VRAM",
+      "f2": "Ada Lovelace architecture",
+      "f3": "DLSS 3 support",
+      "f4": "Ray tracing ready",
+      "f5": "4K gaming capable"
+    },
+    "category": "GPU",
+    "price": "1199.99",
+    "discount": 5,
+    "discountedPrice": 1139.99,
+    "quantity": 25,
+    "totalSale": 0,
+    "status": true,
+    "description": "NVIDIA GeForce RTX 4080 SUPER delivers exceptional 4K gaming performance with DLSS 3 and advanced ray tracing. Perfect for enthusiast gamers and content creators. Available at GearGrid USA.",
+    "allRating": [0],
+    "rating": 0,
+    "brand": "nvidia",
+    "code": "GPU-RTX4080S-006",
+    "sellerID": "geargrid-usa"
+  },
+  {
+    "name": "Seagate Internal 1TB SATA Barracuda HDD",
+    "images": {
+      "i1": "https://i.ibb.co/zhtz1h1/storage1.jpg",
+      "i2": "https://i.ibb.co/zhtz1h1/storage1.jpg",
+      "i3": "https://i.ibb.co/zhtz1h1/storage1.jpg",
+      "i4": "https://i.ibb.co/zhtz1h1/storage1.jpg"
+    },
+    "features": {
+      "f1": "1TB capacity",
+      "f2": "SATA III interface",
+      "f3": "7200 RPM speed",
+      "f4": "256MB cache",
+      "f5": "3.5-inch form factor"
+    },
+    "category": "StorageDevice",
+    "price": "89.99",
+    "discount": 10,
+    "discountedPrice": 80.99,
+    "quantity": 100,
+    "totalSale": 0,
+    "status": true,
+    "description": "The latest price of Seagate Internal 1TB Barracuda HDD in USA is $89.99. You can buy the Seagate Internal 1TB Barracuda HDD at best price from our website or visit any of our showrooms in Birmingham, Alabama.",
+    "allRating": [0],
+    "rating": 0,
+    "brand": "seagate",
+    "code": "HDD-BARRA1TB-007",
+    "sellerID": "geargrid-usa"
+  },
+  {
+    "name": "LG 27GR95QE-B 27-Inch UltraGear OLED Gaming Monitor",
+    "images": {
+      "i1": "https://i.ibb.co/dryrD7n/monitor1.webp",
+      "i2": "https://i.ibb.co/dryrD7n/monitor1.webp",
+      "i3": "https://i.ibb.co/dryrD7n/monitor1.webp",
+      "i4": "https://i.ibb.co/dryrD7n/monitor1.webp"
+    },
+    "features": {
+      "f1": "27-inch OLED display",
+      "f2": "240Hz refresh rate",
+      "f3": "1440p resolution",
+      "f4": "0.03ms response time",
+      "f5": "HDR10 support"
+    },
+    "category": "Monitor",
+    "price": "899.99",
+    "discount": 20,
+    "discountedPrice": 719.99,
+    "quantity": 35,
+    "totalSale": 0,
+    "status": true,
+    "description": "The LG 27GR95QE-B 27-inch UltraGear Gaming Monitor features cutting-edge OLED technology with 240Hz refresh rate for the ultimate gaming experience. RGB lighting and premium build quality. Ships from GearGrid USA.",
+    "allRating": [0],
+    "rating": 0,
+    "brand": "lg",
+    "code": "MON-LG27OLED-008",
+    "sellerID": "geargrid-usa"
+  }
+]
