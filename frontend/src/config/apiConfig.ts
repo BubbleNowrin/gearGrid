@@ -1,5 +1,5 @@
 export const config = {
-  SERVER_BASE_URL: "https://tech-mart-backend.vercel.app/api/v1.0",
+  SERVER_BASE_URL: "https://gear-grid-indol.vercel.app/api/v1.0",
   AUTH: {
     REGISTER: "/user/userRegister",
     LOGIN: "/user/userLogin",
